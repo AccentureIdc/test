@@ -27,4 +27,3 @@ $scope.$watch('todos', function () {
     };
     
   });
-
