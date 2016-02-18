@@ -77,15 +77,15 @@ module.exports = function(config) {
     // - PhantomJS
     // - IE (only Windows)
     browsers: [
-      "PhantomJS",
-      "Chrome",
+      /*"PhantomJS",
+      "Chrome",*/
       "Safari"
     ],
 
     // Which plugins to enable
     plugins: [
-      /*"karma-chrome-launcher",
-      "karma-safari-launcher",*/
+      "karma-chrome-launcher",
+      "karma-safari-launcher",
       "karma-phantomjs-launcher",
       "karma-jasmine",
      "karma-htmlfile-reporter"
